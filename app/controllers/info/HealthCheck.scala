@@ -9,7 +9,7 @@ import play.api.mvc.{Action, Controller}
 class HealthCheck @Inject() extends Controller {
 
   def simpleCheck = Action {
-    Ok("healthy")
+    Ok("ok")
   }
 
 }
